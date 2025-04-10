@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 30px;
+    width: 70%;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    box-shadow: 10px 10px 15px 0px rgb(37, 1, 136);
+  
+  }
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .form-group {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  
+  .form-group label {
+    flex: 1 1 150px;
+    max-width: 150px;
+    margin-right: 10px;
+    align-self: center;
+  }
+  
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    flex: 2 1 auto;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+  }
+  
+  /*form-group1 é o modelo onde vai ter mais de um componente na mesma linha. */
+  .form-group1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  
+  .form-group1 label {
+    max-width: 150px;
+    margin-right: 10px;
+    align-self: center;
+  }
+  
+  .form-group1 input,
+  .form-group1 select,
+  .form-group1 textarea {
+    flex: 2 1 auto;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+  }
+  
+  
+  /*form-group-check é o modelo onde vai ter check box. */
+  
+  .form-group-check {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  
+  .form-group-check label {
+    max-width: 150px;
+    margin-right: 10px;
+    align-self: center;
+    flex: 1 1 150px;
+    align-items: start;
+  }
+  
+  .form-group-check input,
+  .form-group-check select,
+  .form-group-check textarea {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+  }
+  
+  
+  .btnadd, .btncancel {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .btnadd {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .btncancel {
+    background-color: #dc3545;
+    color: white;
+  }
+  .teste1{
+    margin-left: 30px;
+  }
+  
+  
+  .toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #ecd2f2, #69e0ff, #ffffff); /* Cor azul escuro */
+    box-shadow: 10px 10px 15px 0px rgb(37, 1, 136);
+    padding: 10px 20px;
+    color: rgb(139, 137, 137);
+    border-radius: 10px; /* Adiciona cantos arredondados */
+  }
+  .logo {
+    max-height: 50px; /* Ajuste a altura da logo conforme necessário */
+  }
+  .menu-icon {
+    cursor: pointer;
+    font-size: 24px; /* Tamanho dos três pontinhos */
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  body{
+    background: linear-gradient(to right, #6E4FFC, #45FEC9);
+  }
+  
+  .cabecalho{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 70%;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    margin: 30px auto; /* Centraliza horizontalmente */
+    box-shadow: 10px 10px 15px 0px rgb(37, 1, 136);
+  }
